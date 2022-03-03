@@ -2,8 +2,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Alimentación</title>
+<title>Contáctanos</title>
 <link href="css/box.css" rel="stylesheet" type="text/css">
+	 <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="imagen/ico.png">
 </head>
 
@@ -37,21 +39,17 @@
 	</nav>
 	<main>
 		<div class="container-all">
-		<h1><i class="fa-solid fa-drumstick-bite"></i> Alimentación <i class="fa-solid fa-fish"></i></h1><br>
-		<div id="img_main4" align="center">
-		<img src="imagen/salto.gif" width="350" height="250">
-		</div>
-		<div id="contenedor_main2">
-		<h4 class="col-colum">El Caracal es un animal robusto, compacto, con una musculatura poderosa, que puede alcanzar una gran velocidad en espacios pequeños de tiempo y de distancia, así como realizar portentosos saltos de incluso tres metros de altura que le permiten cazar numerosas aves. Además, trepan con bastante facilidad gracias a su fuerte complexión. Debido a estas características, estos animales carnívoros son excelentes cazadores y pueden comer pequeños mamíferos, como liebres y roedores. Pero, sin lugar a dudas, su presa favorita son las aves.Sin embargo, cabe destacar que las presas que cazan los caracales pesan menos de 5 kilogramos. No obstante, el caracal caza de forma muy sigilosa, por lo que cuando encuentra a su presa la acecha mientras se va acercando a ella muy lentamente.</h4>
-		</div>
-			<div class="gallery-container">
-				<div class="gallery__item"><img src="imagen/presa1.jpeg" alt="" class="gallery__imagen"></div>
-				<div class="gallery__item"><img src="imagen/presa2.jpeg" alt="" class="gallery__imagen"></div>
-				<div class="gallery__item"><img src="imagen/presa3.jpeg" alt="" class="gallery__imagen"></div>
-				<div class="gallery__item"><img src="imagen/presa4.jpeg" alt="" class="gallery__imagen"></div>
-				<div class="gallery__item"><img src="imagen/presa5.jpeg" alt="" class="gallery__imagen"></div>
-				<div class="gallery__item"><img src="imagen/presa6.jpeg" alt="" class="gallery__imagen"></div>
-			</div>
+			<h1><i class="fa-solid fa-at"></i> Envía tus dudas <i class="fa-solid fa-paper-plane"></i></h1>
+			
+		<form method="post" action="indexx.php">
+       		<label for="nombre">Nombre:</label>
+       		<input id="nombre" name="nombre" placeholder="Nombre completo">
+       		<label for="email">Email:</label>
+       		<input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+       		<label for="mensaje">Mensaje:</label>
+       		<textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
+       		<input id="submit" name="submit" type="submit" value="Enviar">
+		</form>
 		</div>
 	</main>
 	<aside>
@@ -59,7 +57,7 @@
 		<img src="imagen/bandera.jpg" width="130">
 	</aside>
 	<footer>
-		<p align="center">Universidad Santo Tomás</p>
+		<p>Universidad Santo Tomás</p>
 		<p>Contacto: 645(21)674-90-04</p>
 		<p>Los contenidos de esta publicación se redactan solo con fines informativos.</p>
 		<p>© 2012 – 2022 . Todos los derechos reservados.</p>
@@ -68,3 +66,4 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </body>
 </html>
+
