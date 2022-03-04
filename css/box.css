@@ -133,11 +133,17 @@ footer {
 
 .container-all{
 	width: 100%;
+	background-image: "imagen/caracal.jpeg";
 }
 .container-all h1 {
 	text-align: center;
 	background: #2F1A05;
 	padding: 4px;
+}
+
+.cara{
+	border:3px solid #4b371c;
+	border-radius: 15px;
 }
 
 #img_main{
@@ -219,6 +225,8 @@ label {
     display:block;
     margin-top:20px;
     letter-spacing:1px;
+	color: #FFF;
+	text-shadow: 2px 1.5px #000;
 }
  
 .principal {
@@ -242,11 +250,15 @@ input, textarea {
     padding:10px;
     margin-top:5px;
     font-size:10px;
-    color:#000;
+	border-radius: 15px;
 }
  
 textarea {
     height:150px;
+	max-height: 300px;
+	min-height: 150px;
+	max-width: 400px;
+	min-width: 400px;
 }
  
 #submit {
